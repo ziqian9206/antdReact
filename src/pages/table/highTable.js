@@ -89,8 +89,8 @@ export default class BasicTable extends React.Component {
                         '1': '水寒',
                         '2': '湛卢',
                         '3': '秋骊',
-                        '4': '百度FE',
-                        '5': '创业者'
+                        '4': '凌虚',
+                        '5': '鲨齿'
                     }
                     return config[state];
                 }
@@ -164,11 +164,11 @@ export default class BasicTable extends React.Component {
                 dataIndex: 'state',
                 render(state) {
                     let config = {
-                        '1': '咸鱼一条',
-                        '2': '风华浪子',
-                        '3': '北大才子',
-                        '4': '百度FE',
-                        '5': '创业者'
+                        '1': '墨眉',
+                        '2': '非攻',
+                        '3': '巨阙',
+                        '4': '唐家霸王枪',
+                        '5': '夺命书生剑'
                     }
                     return config[state];
                 }
@@ -328,11 +328,11 @@ export default class BasicTable extends React.Component {
                 dataIndex: 'state',
                 render(state) {
                     let config = {
-                        '1': '咸鱼一条',
-                        '2': '风华浪子',
-                        '3': '北大才子',
-                        '4': '百度FE',
-                        '5': '创业者'
+                        '1': '百度',
+                        '2': '阿里',
+                        '3': '腾讯',
+                        '4': '脸书',
+                        '5': '谷歌'
                     }
                     return config[state];
                 }
@@ -396,11 +396,11 @@ export default class BasicTable extends React.Component {
                 dataIndex: 'state',
                 render(state) {
                     let config = {
-                        '1': '咸鱼一条',
-                        '2': '风华浪子',
-                        '3': '北大才子',
-                        '4': '百度FE',
-                        '5': '创业者'
+                        '1': '饿了么',
+                        '2': '美团',
+                        '3': '大众点评',
+                        '4': '口碑',
+                        '5': '糯米'
                     }
                     return config[state];
                 }

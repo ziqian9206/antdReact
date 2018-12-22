@@ -136,11 +136,11 @@ export default class User extends React.Component{
             dataIndex: 'state',
             render(state){
                 let config = {
-                    '1':'咸鱼一条',
-                    '2':'风华浪子',
-                    '3':'北大才子一枚',
-                    '4':'百度FE',
-                    '5':'创业者'
+                    '1':'清华',
+                    '2':'北大',
+                    '3':'浙大',
+                    '4':'复旦',
+                    '5':'南大'
                 }
                 return config[state];
             }
@@ -230,11 +230,11 @@ class UserForm extends React.Component{
 
     getState = (state)=>{
         return {
-            '1':'咸鱼一条',
-            '2':'风华浪子',
-            '3':'北大才子一枚',
-            '4':'百度FE',
-            '5':'创业者'
+            '1':'笨笨',
+            '2':'傻傻',
+            '3':'呆呆',
+            '4':'蠢蠢',
+            '5':'哈哈'
         }[state]
     }
 
@@ -277,11 +277,11 @@ class UserForm extends React.Component{
                             initialValue:userInfo.state
                         })(
                         <Select>
-                            <Option value={1}>咸鱼一条</Option>
-                            <Option value={2}>风华浪子</Option>
-                            <Option value={3}>北大才子一枚</Option>
-                            <Option value={4}>百度FE</Option>
-                            <Option value={5}>创业者</Option>
+                            <Option value={1}>虚空遁地兽</Option>
+                            <Option value={2}>虚空行者</Option>
+                            <Option value={3}>虚空之眼</Option>
+                            <Option value={4}>虚空掠夺者</Option>
+                            <Option value={5}>虚空先知</Option>
                         </Select>
                     )}
                 </FormItem>
