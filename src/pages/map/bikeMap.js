@@ -72,7 +72,7 @@ export default class Order extends React.Component{
         this.map.centerAndZoom(endPoint, 11);
         // map.clearOverlays();
 
-        //添加起始图标
+        //添加起始图表
         let startPointIcon = new window.BMap.Icon("/assets/start_point.png", new window.BMap.Size(36, 42), {
             imageSize: new window.BMap.Size(36, 42),
             anchor: new window.BMap.Size(18, 42)
